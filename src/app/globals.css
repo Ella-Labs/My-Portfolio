@@ -1,0 +1,35 @@
+/* 1. The new v4 import (replaces the old @tailwind directives) */
+@import "tailwindcss";
+
+/* 2. The new v4 way to register custom fonts */
+@theme {
+  --font-space: var(--font-space), sans-serif;
+  --font-inter: var(--font-inter), sans-serif;
+}
+
+/* 3. Our Midnight Cyber-Chic base styles */
+:root {
+  --background: #0B0F19; 
+  --foreground: #F8FAFC; 
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  scroll-behavior: smooth; 
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B026FF;
+}
