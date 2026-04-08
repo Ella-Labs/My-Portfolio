@@ -34,7 +34,7 @@ export default function Navbar() {
         
         {/* The Artsy Logo */}
         <Link href="/" className="text-xl md:text-2xl font-bold font-space tracking-tighter">
-          codebynuel<span className="text-[#00F0FF]">.</span>com
+          codebynuel<span className="text-[#00F0FF]">.</span>
         </Link>
 
         {/* The Navigation Links */}
